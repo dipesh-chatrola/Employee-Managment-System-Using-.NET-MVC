@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4aa8b6e9b0d6416b8cbd34a4e3cd4c52" Name="Diagram1" ZoomLevel="66">
+        <EntityTypeShape EntityType="ProjectEMSModel.HR_SignUp" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectEMSModel.t_Departments" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectEMSModel.t_Employees" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="ProjectEMSModel.FK__t_Departm__RefHR__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectEMSModel.FK__t_Employe__RefHR__2A4B4B5E" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ProjectEMSModel.t_PersonalInformations" Width="1.5" PointX="5.25" PointY="3.375" />
+        <AssociationConnector Association="ProjectEMSModel.FK__t_Persona__Panno__33D4B598" />
+        <EntityTypeShape EntityType="ProjectEMSModel.t_EmpBankInformations" Width="1.5" PointX="9.625" PointY="3.5" />
+        <EntityTypeShape EntityType="ProjectEMSModel.t_EmpEmergencyContact" Width="1.5" PointX="7.5" PointY="3.875" />
+        <EntityTypeShape EntityType="ProjectEMSModel.t_EmpPersonalInformations" Width="1.5" PointX="5.25" PointY="0.5" />
+        <AssociationConnector Association="ProjectEMSModel.FK__t_EmpBank__Panno__403A8C7D" />
+        <AssociationConnector Association="ProjectEMSModel.FK__t_EmpEmer__Emplo__398D8EEE" />
+        <AssociationConnector Association="ProjectEMSModel.FK__t_EmpPers__Emplo__36B12243" />
+        <EntityTypeShape EntityType="ProjectEMSModel.t_leaves" Width="1.5" PointX="7.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

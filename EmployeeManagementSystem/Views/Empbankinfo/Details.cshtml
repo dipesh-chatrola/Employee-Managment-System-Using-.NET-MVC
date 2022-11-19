@@ -1,0 +1,59 @@
+﻿@model EmployeeManagementSystem.t_EmpBankInformations
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/EmployeeLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>t_EmpBankInformations</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Bankname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bankname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bankaccno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bankaccno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IFSCCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IFSCCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Panno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Panno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.t_Employees.Firstname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.t_Employees.Firstname)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

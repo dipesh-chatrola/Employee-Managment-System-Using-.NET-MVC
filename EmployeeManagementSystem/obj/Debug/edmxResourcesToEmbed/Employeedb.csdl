@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjectEMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="HR_SignUp">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="mobileno" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="t_Departments" Relationship="Self.FK__t_Departm__RefHR__2D27B809" FromRole="HR_SignUp" ToRole="t_Departments" />
+    <NavigationProperty Name="t_Employees" Relationship="Self.FK__t_Employe__RefHR__2A4B4B5E" FromRole="HR_SignUp" ToRole="t_Employees" />
+  </EntityType>
+  <EntityType Name="t_Departments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HOD" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="RefHRID" Type="Int32" />
+    <Property Name="Department" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="HR_SignUp" Relationship="Self.FK__t_Departm__RefHR__2D27B809" FromRole="t_Departments" ToRole="HR_SignUp" />
+  </EntityType>
+  <EntityType Name="t_Employees">
+    <Key>
+      <PropertyRef Name="Employee_ID" />
+    </Key>
+    <Property Name="Employee_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RefHRID" Type="Int32" />
+    <Property Name="Firstname" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Lastname" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mobileno" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="JoiningDate" Type="DateTime" Precision="0" />
+    <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="HR_SignUp" Relationship="Self.FK__t_Employe__RefHR__2A4B4B5E" FromRole="t_Employees" ToRole="HR_SignUp" />
+    <NavigationProperty Name="t_PersonalInformations" Relationship="ProjectEMSModel.FK__t_Persona__Panno__33D4B598" FromRole="t_Employees" ToRole="t_PersonalInformations" />
+    <NavigationProperty Name="t_EmpBankInformations" Relationship="ProjectEMSModel.FK__t_EmpBank__Panno__403A8C7D" FromRole="t_Employees" ToRole="t_EmpBankInformations" />
+    <NavigationProperty Name="t_EmpEmergencyContact" Relationship="ProjectEMSModel.FK__t_EmpEmer__Emplo__398D8EEE" FromRole="t_Employees" ToRole="t_EmpEmergencyContact" />
+    <NavigationProperty Name="t_EmpPersonalInformations" Relationship="ProjectEMSModel.FK__t_EmpPers__Emplo__36B12243" FromRole="t_Employees" ToRole="t_EmpPersonalInformations" />
+  </EntityType>
+  <Association Name="FK__t_Departm__RefHR__2D27B809">
+    <End Role="HR_SignUp" Type="Self.HR_SignUp" Multiplicity="0..1" />
+    <End Role="t_Departments" Type="Self.t_Departments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HR_SignUp">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="t_Departments">
+        <PropertyRef Name="RefHRID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_Employe__RefHR__2A4B4B5E">
+    <End Role="HR_SignUp" Type="Self.HR_SignUp" Multiplicity="0..1" />
+    <End Role="t_Employees" Type="Self.t_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HR_SignUp">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="t_Employees">
+        <PropertyRef Name="RefHRID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjectEMSEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="HR_SignUp" EntityType="Self.HR_SignUp" />
+    <EntitySet Name="t_Departments" EntityType="Self.t_Departments" />
+    <EntitySet Name="t_Employees" EntityType="Self.t_Employees" />
+    <AssociationSet Name="FK__t_Departm__RefHR__2D27B809" Association="Self.FK__t_Departm__RefHR__2D27B809">
+      <End Role="HR_SignUp" EntitySet="HR_SignUp" />
+      <End Role="t_Departments" EntitySet="t_Departments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_Employe__RefHR__2A4B4B5E" Association="Self.FK__t_Employe__RefHR__2A4B4B5E">
+      <End Role="HR_SignUp" EntitySet="HR_SignUp" />
+      <End Role="t_Employees" EntitySet="t_Employees" />
+    </AssociationSet>
+    <EntitySet Name="t_PersonalInformations" EntityType="ProjectEMSModel.t_PersonalInformations" />
+    <AssociationSet Name="FK__t_Persona__Panno__33D4B598" Association="ProjectEMSModel.FK__t_Persona__Panno__33D4B598">
+      <End Role="t_Employees" EntitySet="t_Employees" />
+      <End Role="t_PersonalInformations" EntitySet="t_PersonalInformations" />
+    </AssociationSet>
+    <EntitySet Name="t_EmpBankInformations" EntityType="ProjectEMSModel.t_EmpBankInformations" />
+    <EntitySet Name="t_EmpEmergencyContact" EntityType="ProjectEMSModel.t_EmpEmergencyContact" />
+    <EntitySet Name="t_EmpPersonalInformations" EntityType="ProjectEMSModel.t_EmpPersonalInformations" />
+    <AssociationSet Name="FK__t_EmpBank__Panno__403A8C7D" Association="ProjectEMSModel.FK__t_EmpBank__Panno__403A8C7D">
+      <End Role="t_Employees" EntitySet="t_Employees" />
+      <End Role="t_EmpBankInformations" EntitySet="t_EmpBankInformations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_EmpEmer__Emplo__398D8EEE" Association="ProjectEMSModel.FK__t_EmpEmer__Emplo__398D8EEE">
+      <End Role="t_Employees" EntitySet="t_Employees" />
+      <End Role="t_EmpEmergencyContact" EntitySet="t_EmpEmergencyContact" />
+    </AssociationSet>
+    <AssociationSet Name="FK__t_EmpPers__Emplo__36B12243" Association="ProjectEMSModel.FK__t_EmpPers__Emplo__36B12243">
+      <End Role="t_Employees" EntitySet="t_Employees" />
+      <End Role="t_EmpPersonalInformations" EntitySet="t_EmpPersonalInformations" />
+    </AssociationSet>
+    <EntitySet Name="t_leaves" EntityType="ProjectEMSModel.t_leaves" />
+  </EntityContainer>
+  <EntityType Name="t_PersonalInformations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee_ID" Type="Int32" Nullable="false" />
+    <Property Name="PassportNo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Passport_Exp_Date" Type="DateTime" Precision="0" />
+    <Property Name="Tel" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Nationality" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Religion" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Maritalstatus" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrName1" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrRelation1" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrPhone11" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="EmrPhone12" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="EmrName2" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrRelation2" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrPhone21" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="EmrPhone22" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Bankname" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Bankaccno" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IFSCCode" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Panno" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="t_Employees" Relationship="ProjectEMSModel.FK__t_Persona__Panno__33D4B598" FromRole="t_PersonalInformations" ToRole="t_Employees" />
+  </EntityType>
+  <Association Name="FK__t_Persona__Panno__33D4B598">
+    <End Type="ProjectEMSModel.t_Employees" Role="t_Employees" Multiplicity="1" />
+    <End Type="ProjectEMSModel.t_PersonalInformations" Role="t_PersonalInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Employees">
+        <PropertyRef Name="Employee_ID" />
+      </Principal>
+      <Dependent Role="t_PersonalInformations">
+        <PropertyRef Name="Employee_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="t_EmpBankInformations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee_ID" Type="Int32" Nullable="false" />
+    <Property Name="Bankname" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Bankaccno" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IFSCCode" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Panno" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="t_Employees" Relationship="ProjectEMSModel.FK__t_EmpBank__Panno__403A8C7D" FromRole="t_EmpBankInformations" ToRole="t_Employees" />
+  </EntityType>
+  <EntityType Name="t_EmpEmergencyContact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee_ID" Type="Int32" Nullable="false" />
+    <Property Name="EmrName1" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrRelation1" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrPhone11" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="EmrPhone12" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="EmrName2" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrRelation2" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmrPhone21" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="EmrPhone22" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="t_Employees" Relationship="ProjectEMSModel.FK__t_EmpEmer__Emplo__398D8EEE" FromRole="t_EmpEmergencyContact" ToRole="t_Employees" />
+  </EntityType>
+  <EntityType Name="t_EmpPersonalInformations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee_ID" Type="Int32" Nullable="false" />
+    <Property Name="PassportNo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Passport_Exp_Date" Type="DateTime" Precision="0" />
+    <Property Name="Tel" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Nationality" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Religion" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Maritalstatus" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="t_Employees" Relationship="ProjectEMSModel.FK__t_EmpPers__Emplo__36B12243" FromRole="t_EmpPersonalInformations" ToRole="t_Employees" />
+  </EntityType>
+  <Association Name="FK__t_EmpBank__Panno__403A8C7D">
+    <End Type="ProjectEMSModel.t_Employees" Role="t_Employees" Multiplicity="1" />
+    <End Type="ProjectEMSModel.t_EmpBankInformations" Role="t_EmpBankInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Employees">
+        <PropertyRef Name="Employee_ID" />
+      </Principal>
+      <Dependent Role="t_EmpBankInformations">
+        <PropertyRef Name="Employee_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_EmpEmer__Emplo__398D8EEE">
+    <End Type="ProjectEMSModel.t_Employees" Role="t_Employees" Multiplicity="1" />
+    <End Type="ProjectEMSModel.t_EmpEmergencyContact" Role="t_EmpEmergencyContact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Employees">
+        <PropertyRef Name="Employee_ID" />
+      </Principal>
+      <Dependent Role="t_EmpEmergencyContact">
+        <PropertyRef Name="Employee_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__t_EmpPers__Emplo__36B12243">
+    <End Type="ProjectEMSModel.t_Employees" Role="t_Employees" Multiplicity="1" />
+    <End Type="ProjectEMSModel.t_EmpPersonalInformations" Role="t_EmpPersonalInformations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_Employees">
+        <PropertyRef Name="Employee_ID" />
+      </Principal>
+      <Dependent Role="t_EmpPersonalInformations">
+        <PropertyRef Name="Employee_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="t_leaves">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee_ID" Type="Int32" Nullable="false" />
+    <Property Name="LeaveType" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="FromDate" Type="DateTime" Precision="0" />
+    <Property Name="ToDate" Type="DateTime" Precision="0" />
+    <Property Name="TotalDays" Type="Int32" />
+    <Property Name="Reason" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ApprovedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

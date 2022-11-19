@@ -1,0 +1,146 @@
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\EmployeeManagementSystem.dll.config
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\EmployeeManagementSystem.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\EmployeeManagementSystem.pdb
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csc.exe
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csc.rsp
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csi.exe
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csi.rsp
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\vbc.exe
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\EntityFramework.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Razor.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.Razor.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\EntityFramework.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Razor.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.Razor.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CopyComplete
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.dll
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+C:\Users\J.K.Raiyani\Desktop\.net project employee\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csprojAssemblyReference.cache
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\EmployeeManagementSystem.dll.config
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\EmployeeManagementSystem.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\EmployeeManagementSystem.pdb
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csc.exe
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csc.exe.config
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csc.rsp
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csi.exe
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csi.exe.config
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\csi.rsp
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.AppContext.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Console.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.Compression.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.IO.Pipes.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Claims.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.ValueTuple.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Xml.XPath.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\vbc.exe
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\vbc.exe.config
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\vbc.rsp
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\EntityFramework.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Helpers.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Mvc.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Razor.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.Deployment.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.Razor.dll
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\EntityFramework.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Razor.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.Deployment.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Webpages.Razor.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Helpers.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\System.Web.Mvc.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CopyComplete
+D:\MU\SEM-6\NET\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csprojAssemblyReference.cache
